@@ -27,7 +27,7 @@ public class secondTask {
         int n = in.nextInt();
       
         if (n >= maxSize) {
-            System.out.println("Error: Array size should be less than maxSize");
+            System.out.println("Error: Array size should be less than "+ maxSize);
             System.exit(1);
         }    
 
