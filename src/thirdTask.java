@@ -20,7 +20,7 @@ public class thirdTask {
                         System.out.print(Y[i] + " ");
                     }                }
                 else{
-                      System.out.println("Invalid value(n<20)");
+                      System.out.println("Invalid value (n<20)");
                     }
                     in.close(); 
 
