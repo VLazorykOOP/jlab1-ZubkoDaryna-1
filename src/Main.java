@@ -1,7 +1,45 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Lab 1 Java");
+	  Scanner in = new Scanner(System.in);
+        System.out.println("First Task");
+
+        // Ввід даних типу double
+        System.out.print("x (double) = ");
+        double x = in.nextDouble();
+        System.out.print("y (double) = ");
+        double y = in.nextDouble();
+
+        // Ввід даних типу int
+        System.out.print("a (int) = ");
+        int x1 = in.nextInt();
+        System.out.print("b (int) = ");
+        int y1 = in.nextInt();
+
+        // Ввід даних типу double
+        System.out.print("m (double) = ");
+        double x2 = in.nextDouble();
+        System.out.print("n (double) = ");
+        double y2= in.nextDouble();
+
+
+        double FirstPart = (2 * Math.pow(x, 2) + x * y) / Math.pow(x * y, 2);
+        double SecondPart = (3 * x * y - Math.pow(y, 3)) / (Math.pow(x, 2) + 2 * Math.pow(y, 2));
+        double result1 = FirstPart + SecondPart;
+
+      FirstPart = (2 * Math.pow(x1, 2) + x1 * y1) / Math.pow(x1 * y1, 2);
+        SecondPart = (3 * x1 * y1 - Math.pow(y1, 3)) / (Math.pow(x1, 2) + 2 * Math.pow(y1, 2));
+        double result2 = FirstPart + SecondPart;
+
+        FirstPart = (2 * Math.pow(x2, 2) + x2 * y2) / Math.pow(x2 * y2, 2);
+        SecondPart = (3 * x2 * y2 - Math.pow(y2, 3)) / (Math.pow(x2, 2) + 2 * Math.pow(y2, 2));
+        int result3 = (int) (FirstPart + SecondPart); 
+
+        System.out.println("Result for double inputs: " + result1);
+        System.out.println("Result for int inputs (x1, y1): " + result2);
+        System.out.println("Result for double inputs (x2, y2): " + result3);
+        in.close();
     }
 }
