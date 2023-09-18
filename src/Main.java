@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+//8
     public static void main(String[] args) {
 	  Scanner in = new Scanner(System.in);
         System.out.println("First Task");
@@ -13,15 +13,15 @@ public class Main {
         double y = in.nextDouble();
 
         // Ввід даних типу int
-        System.out.print("a (int) = ");
+        System.out.print("x (int) = ");
         int x1 = in.nextInt();
-        System.out.print("b (int) = ");
+        System.out.print("y (int) = ");
         int y1 = in.nextInt();
 
         // Ввід даних типу double
-        System.out.print("m (double) = ");
+        System.out.print("x (double) = ");
         double x2 = in.nextDouble();
-        System.out.print("n (double) = ");
+        System.out.print("y (double) = ");
         double y2= in.nextDouble();
 
 
@@ -38,8 +38,8 @@ public class Main {
         int result3 = (int) (FirstPart + SecondPart); 
 
         System.out.println("Result for double inputs: " + result1);
-        System.out.println("Result for int inputs (x1, y1): " + result2);
-        System.out.println("Result for double inputs (x2, y2): " + result3);
+        System.out.println("Result for int inputs: " + result2);
+        System.out.println("Result for double inputs: " + result3);
         in.close();
     }
 }
