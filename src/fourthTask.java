@@ -18,6 +18,7 @@ public class fourthTask {
             if (i == 0) {
                 System.out.print(word);
             } 
+            
         }
         in.close();
     }
