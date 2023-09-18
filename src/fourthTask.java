@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class fourthTask {
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
        /* */ System.out.println("Input text:");
@@ -18,7 +19,7 @@ public class fourthTask {
             if (i == 0) {
                 System.out.print(word);
             } 
-            
+
         }
         in.close();
     }
