@@ -24,7 +24,6 @@ public class Main {
         System.out.print("y (double) = ");
         double y2= in.nextDouble();
 
-
         double FirstPart = (2 * Math.pow(x, 2) + x * y) / Math.pow(x * y, 2);
         double SecondPart = (3 * x * y - Math.pow(y, 3)) / (Math.pow(x, 2) + 2 * Math.pow(y, 2));
         double result1 = FirstPart + SecondPart;
