@@ -21,7 +21,6 @@ public class secondTask {
                 in.close();
     }
 
-
     static int[] Input(Scanner in, int maxSize) {
         System.out.println("Size of array=");
         int n = in.nextInt();
